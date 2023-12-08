@@ -78,3 +78,5 @@ export function SwitchingPlan({
         </div>
     );
 }
+
+export default SwitchingPlan;
