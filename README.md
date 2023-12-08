@@ -1,7 +1,4 @@
-# CISC275 Final-Project
+# CISC275 My-Final-Project
 
 Dina Dawood
-Ava West
-Malika Iyer
-Bryant Ferguson
-Matthew Mestre
+"# MyPlannerWebsite" 

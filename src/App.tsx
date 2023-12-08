@@ -148,8 +148,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 - Degree Planner
                 <p></p>
-                <h6>Ava West, Bryant Ferguson, Dina Dawood</h6>
-                <h6>Malika Iyer, Matthew Mestre</h6>
+                <h6>Dina Dawood</h6>
             </header>
 
             <div className="Welcome">
