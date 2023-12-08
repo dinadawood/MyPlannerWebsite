@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import "./App.css";
@@ -36,6 +38,7 @@ import { Course } from "./Interfaces/course";
 import { Semester } from "./Interfaces/semester";
 import { Plan } from "./Interfaces/plan";
 import { PoolingObjects } from "./Interfaces/poolingObjects";
+import { ESLint } from "eslint";
 
 const SemesterFinal = displaySemesters.map(
     (semester): Semester => ({

@@ -1,3 +1,5 @@
+/* eslint-disable no-extra-parens */
+
 import React, { useState } from "react";
 import { Button, Modal, Form, Col, Row } from "react-bootstrap";
 import { Course } from "../Interfaces/course";

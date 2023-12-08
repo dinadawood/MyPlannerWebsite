@@ -1,3 +1,5 @@
+/* eslint-disable no-extra-parens */
+
 import React, { useState } from "react";
 import { Modal, Button, Form, Col, Container, Table } from "react-bootstrap";
 
