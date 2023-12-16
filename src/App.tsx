@@ -38,6 +38,8 @@ import { Course } from "./Interfaces/course";
 import { Semester } from "./Interfaces/semester";
 import { Plan } from "./Interfaces/plan";
 import { PoolingObjects } from "./Interfaces/poolingObjects";
+
+import { CSV } from "./Components/CSV";
 import { ESLint } from "eslint";
 
 const SemesterFinal = displaySemesters.map(
@@ -196,6 +198,11 @@ function App(): JSX.Element {
                         settingPlan={settingPlan}
                         plans={planList}
                     ></SwitchingPlan>
+
+                    <p></p>
+
+                    <CSV semesters={plan.semesters} plan={plan}></CSV>
+
                     <p></p>
                     <MultiSemester
                         currentPlan={plan}
