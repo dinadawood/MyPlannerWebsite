@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 
 import { Plan } from "../Interfaces/plan";
-import "../App.css";
 
 export function SwitchingPlan({
     show,
@@ -78,5 +77,3 @@ export function SwitchingPlan({
         </div>
     );
 }
-
-// export default SwitchingPlan;
